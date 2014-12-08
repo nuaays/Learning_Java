@@ -1,5 +1,9 @@
 import java.util.*;
 
+
+
+
+
 public class LotteryOdds
 {
     public static void testOdds()
@@ -41,9 +45,15 @@ public class LotteryOdds
             System.out.println(x);
     }
 
+    public static void test(){
+        Date today = new Date();
+        System.out.println(today.toString());
+    }
+
     public static void main(String[] args)
     {
-        testArrays();
+        test();
+        //testArrays();
 
         //testOdds();
 
